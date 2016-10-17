@@ -1,7 +1,7 @@
 function animate(root, delay_root, delay_child) {
 	var root = document.querySelector(root);
 	root.setAttribute("style",`animation: fadein ${delay_root}ms;`);
-	children = root.cloneNode(true).children
+	let children = root.cloneNode(true).children
 	while (root.hasChildNodes()) root.removeChild(root.lastChild)
 
 	let a = addStyle(root, children, delay_child);
