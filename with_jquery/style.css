@@ -1,0 +1,10 @@
+ul{
+	width: 10rem;
+	height: 20rem;
+	background: hsl(255, 13%, 22%);
+	padding: 2rem;
+}
+
+li{
+	color: #fff;
+}
